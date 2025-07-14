@@ -6,7 +6,7 @@ Key visualizations highlight the relationship between sentiment and engagement, 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 treehut-insights/
@@ -19,6 +19,8 @@ treehut-insights/
 
 ## Key Visualizations + Insights
 
+<img width="1324" height="769" alt="Screenshot 2025-07-14 at 2 31 04 PM" src="https://github.com/user-attachments/assets/2b2b5143-841e-4c69-b0b4-8ee68eb0f92e" />
+
 - Sentiment vs. Engagement Bubble Plot**  
   Larger bubbles represent posts with more comments. Posts with high engagement but negative sentiment may indicate product issues or controversial topics.
 
@@ -27,20 +29,8 @@ treehut-insights/
 ## How to Run
 
 1. Open repository in jupyter notebook, google colab or similar environment
-2. Install requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the main script:
-   ```bash
-   python main.py
-   ```
-4. (Optional) For interactive visuals, use Jupyter Notebook or run:
-   ```python
-   from ipywidgets import interact, IntSlider, fixed
-   interact(plot_sentiment_vs_engagement, df=fixed(df), top_n=IntSlider(min=5, max=100, step=5, value=30))
-   ```
-
+2. Ensure project structre is maintained
+3. Run all code cells
 ---
 
 ## Extension Proposal
@@ -59,7 +49,7 @@ If given additional time, I would expand the project by:
 
 This project used the following AI and software tools:
 
-- **GPT-4 (ChatGPT)**: Code Library research, Debugging
+- **GPT-4 (ChatGPT)**: Code Library research, Debugging, Boilerplate template generate
 - **Python Libraries**:  
   - `pandas`, `matplotlib`, `seaborn`: Data manipulation & visualization  
   - `nltk`, `vaderSentiment`: NLP & sentiment analysis  
